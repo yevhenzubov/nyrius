@@ -31,6 +31,7 @@ color:#575757;
     background-size: cover;
     background-attachment: fixed;
 }
+
 .clearfix {clear: both;}
 h2, h3, a {color: #fff;}
 a {font-size: 16px;}
@@ -46,24 +47,22 @@ li {list-style: none; text-transform: uppercase;}
 
 
 .burger-check {display: none;}
-/*.sales__assistence {color: #757575;text-align: right;}
-.number__phone {color: #fff; text-align: left;}
+
 .assistant {
-    border: 1px solid red;
-    text-transform: uppercase;
+    float: right;
     background-color: #303030;
-    line-height: 1.5;
-    width: 100%;
-    max-width: 110px;
-    padding: 5px 12px 5px 12px;
-    float: right;
-    font-family: "Arial", sans-serif;
-    font-size: 10px;
-}*/
-.sales {
-    float: right;
-    width: 100%;
-    max-width: 255px;
+    line-height: 25px;
+    font-size: 11px;
+    padding: 0 9px;
+    letter-spacing: 0.5px;
+}
+p.sales__assistence {
+    text-transform: uppercase;
+    color: #949494;
+}
+span.number__phone {
+    font-family:'Arial', sans-serif;
+    color: #fff;
 }
 
 ul.menu {
@@ -118,8 +117,8 @@ a.b__carousel {
     display: inline-block;
     position: absolute;
     bottom: 15px;
-    z-index: 3;
     margin-left: 20px;
+
 }
             /*/section carousel*/
             /*SECTION Services*/
@@ -138,6 +137,7 @@ a img.room-button__connect {
 img.discount {
     position: absolute;
     top: 237px;
+    left: 0;
 }
 
 .column__second {
@@ -159,6 +159,10 @@ a img.button-modem {
 .bdtop {
     border-top: 1px solid #3f3f3f;
     margin-top: 10px;
+    box-shadow: 3px 15px 53px 1px #FFFFFF;
+    -webkit-box-shadow: 3px 15px 53px 1px #FFFFFF;
+    -moz-box-shadow: 3px 15px 53px 1px #FFFFFF;
+    -o-box-shadow: 3px 15px 53px 1px #FFFFFF;
 }
 
 ul.last__menu  {
@@ -166,27 +170,26 @@ ul.last__menu  {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
-
-.last__menu a{color: #767776; font-size: 14px; font-weight: bold;}
-.last__menu li {margin-left: 15px;}
-
-/*li.first {display: inline-block;}*/
-
-span.language__fr {
-    margin-left: 110px;
-    text-transform: capitalize !important;
+.last__menu a {
+    color: #767776;
+    font-size: 15px;
+    font-weight: bold;
 }
-span.vertical__line {
-    margin-left: 5px;
+
+ul.last__menu li {
+    margin-right: 20px;
 }
-span.language__esp {
-    text-transform: capitalize !important;
-    margin-left: 5px;
+
+ul.last__menu .lang__fr {
+    margin-left: 105px;
 }
-a.newsletter{margin-left:5px;}
+.language__fr{
+    margin-right: 20px;
+}
+.newsletter{text-transform: uppercase;}
+
 input.email_address {
     margin-left: 15px;
     height: 25px;
@@ -194,35 +197,42 @@ input.email_address {
 
 }
 input[type=post] {
-    background: black;
+    box-shadow:  0px 0px 5px 0px #f5eeee;
+    -webkit-box-shadow: 0px 0px 5px 0px #f5eeee;
+    -moz-box-shadow:  0px 0px 5px 0px #f5eeee;
+    -o-box-shadow:  0px 0px 5px 0px #f5eeee;
+    inset 0px 2px 20px 12px #000000
+    -webkit-box-shadow: inset 0px 2px 20px 12px #000000;
+    box-shadow: inset 0px 2px 20px 12px #000000;
+    -moz-box-shadow: inset 0px 2px 20px 12px #000000;
+    -o-box-shadow: inset 0px 2px 20px 12px #000000;
     outline: none;
-    border-radius: 33px 33px 33px 33px;
-    -moz-border-radius: 33px 33px 33px 33px;
-    -webkit-border-radius: 33px 33px 33px 33px;
-    border: 2px solid #a8a3a8;
+    border-radius: 65px 64px 64px 64px;
+    -moz-border-radius: 65px 64px 64px 64px;
+    -webkit-border-radius: 65px 64px 64px 64px;
+    border: 2px solid #524f52;
 }
 
 ::-webkit-input-placeholder {
     color: #767776;
-    font-size: 9px;
+    font-size: 12px;
     padding-left: 12px;
     font-weight: bold;
 }
 ::-moz-placeholder {
     color: #767776;
-    font-size: 9px;
-    padding-left: 12px;
+    font-size: 12: 12px;
     font-weight: bold;
 }
 :-moz-placeholder {
     color: #767776;
-    font-size: 9px;
+    font-size: 12px;
     padding-left: 12px;
     font-weight: bold;
 }
 :-ms-input-placeholder {
     color: #767776;
-    font-size: 9px;
+    font-size: 12px;
     padding-left: 12px;
     font-weight: bold;
 }
@@ -230,6 +240,7 @@ input[type=post] {
     color: #fff;
     transition: 0.8s ease;
 }
+
             /*section last*/
 
             /*FOOTER*/
@@ -238,10 +249,13 @@ div.social {
     margin-top: 10px;
     font-size: 15px;
 }
-
 div.social a {
     float: right;
-    margin-right: 8px;
+    margin-right: 10px;
+}
+span.year {
+    font-family: 'Arial', sans-serif;
+
 }
 
 

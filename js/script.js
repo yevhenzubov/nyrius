@@ -14,6 +14,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-// $('owl-stage').owlStage({
-//
-// })
