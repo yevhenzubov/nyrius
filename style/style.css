@@ -74,9 +74,12 @@ ul.menu {
     align-items: center;
 }
 
-.menu li {margin-right: 30px;}
+/*.menu li {margin-right: 30px;}*/
+li.product, li.support {
+    margin-right: 15px;
+}
 
-input[type=text] {
+li input[type=text] {
     border: 2px solid #444;
     outline: none;
     padding: 5px;
@@ -84,9 +87,10 @@ input[type=text] {
     background-repeat: no-repeat;
     background-position: 150px;
     background-color: #000;
-    margin-right: 20px;
+    margin-right: 18px;
+    /*display: inline-block;*/
 }
-a.ask{margin-right: 9px;}
+li a.ask{margin-right: 9px;}
             /*Header*/
 
             /*SECTION Сarousel*/
@@ -178,17 +182,19 @@ ul.last__menu  {
     font-weight: bold;
 }
 
-ul.last__menu li {
-    margin-right: 20px;
-}
-
+ul.last__menu li {margin-right: 10px;}
 ul.last__menu .lang__fr {
-    margin-left: 105px;
+    margin-left: 100px;
+    text-transform: capitalize;
 }
-.language__fr{
-    margin-right: 20px;
+ul.last__menu .vertical__line{
+    margin-left: 10px;
 }
-.newsletter{text-transform: uppercase;}
+.last__menu .lang__esp {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.newsletter{margin-left: 5px;}
 
 input.email_address {
     margin-left: 15px;
